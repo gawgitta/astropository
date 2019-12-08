@@ -1,0 +1,3 @@
+displayName = Astronomy Overhaul
+author = gawgitta
+version = 0.1
