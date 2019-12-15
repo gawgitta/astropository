@@ -31,7 +31,7 @@ namespace astro.Items.Armor
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.SunplateBlock, 12);
+            recipe.AddIngredient(mod.ItemType("SunsteelBar"), 12);
             recipe.AddTile(TileID.SkyMill);
             recipe.SetResult(this);
             recipe.AddRecipe();
