@@ -26,6 +26,7 @@ namespace astro.Items.Weapons
             item.shoot = mod.ProjectileType("ManaSpray");
             item.shootSpeed = 16f;
             item.useTime = 16;
+            item.useAnimation = 16;
             item.useStyle = 5;
         }
 
